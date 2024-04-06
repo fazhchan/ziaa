@@ -81,7 +81,7 @@ body {
 }
 
 #roomId {
-  width: 200px; /* Atur lebar sesuai kebutuhan */
+  width: 300px; /* Atur lebar sesuai kebutuhan */
   background-color: rgb(231, 208, 5);
 }
 
@@ -97,6 +97,15 @@ label {
   position: absolute;
   bottom: 90px;
   right: 450px;
-  width: 30%;
+  width: 100%;
+  box-shadow: -2px -2px 15px #888888;
+}
+
+#localVideo-container video {
+  height: 250px;
+  position: absolute;
+  bottom: 90px;
+  right: 450px;
+  width: 100%;
   box-shadow: -2px -2px 15px #888888;
 }
